@@ -1,0 +1,995 @@
+<?
+id,table_a,table_b,table_c,table_d,table_e,table_f,table_g,table_h,table_i,table_j,table_k,table_l,table_m,table_n,table_o,table_p,table_q,table_r,table_s,table_t,table_u,table_v,table_w,table_x,table_y,table_z,table_aa,table_ab,table_ac,table_ad,table_ae,table_af,table_ag,table_ah,table_ai,table_aj,table_ak,table_al,table_am,table_an,table_ao,table_ap,table_aq,table_ar,table_as,table_at,table_au,table_av,table_aw,table_ax,table_ay,table_az,table_ba,table_bb,table_bc,table_bd,table_be,table_bf,table_bg,table_bh,table_bi,table_bj,table_bk,table_bl,table_bm,table_bn,table_b,table_bp ,table_bq ,table_br ,table_bs,table_bt ,table_bu ,table_bv ,table_bw,table_bx,table_by,table_bz,table_ca,table_cb,table_cc,table_cd,table_ce,table_cf,table_cg,table_ch,table_ci
+
+'$emapData[0]' 
+'$emapData[1]' 
+'$emapData[2]' 
+'$emapData[3]' 
+'$emapData[4]' 
+'$emapData[5]' 
+'$emapData[6]' 
+'$emapData[7]' 
+'$emapData[8]' 
+'$emapData[9]' 
+'$emapData[10]'	  
+'$emapData[11]'	  
+'$emapData[12]'	  
+'$emapData[13]'	  
+'$emapData[14]'	  
+'$emapData[15]'	 
+'$emapData[16]'	
+'$emapData[17]'	 	
+'$emapData[18]'	 
+'$emapData[19]'	 
+'$emapData[20]'	                      
+'$emapData[21]'	                      
+'$emapData[22]'	                      
+'$emapData[23]'	                      
+'$emapData[24]'	                      
+'$emapData[25]'	                      
+'$emapData[26]'	                      
+'$emapData[27]'	 	
+'$emapData[28]'	 	
+'$emapData[29]'	              
+'$emapData[30]'	 
+'$emapData[31]'	 
+'$emapData[32]'	 
+'$emapData[33]'	 
+'$emapData[34]'	 
+'$emapData[35]'	          
+'$emapData[36]'	          
+'$emapData[37]'	         
+'$emapData[38]'          
+'$emapData[39]'          
+'$emapData[40]' 	
+'$emapData[41]' 	
+'$emapData[42]' 	
+'$emapData[43]' 	
+'$emapData[44]' 	
+'$emapData[45]' 	
+'$emapData[46]' 	
+'$emapData[47]' 	
+'$emapData[48]' 	
+'$emapData[49]' 	
+'$emapData[50]' 	
+'$emapData[51]' 	
+'$emapData[52]' 	
+'$emapData[53]' 	
+'$emapData[54]' 	
+'$emapData[55]' 	
+'$emapData[56]' 	
+'$emapData[57]' 	
+'$emapData[58]' 	
+'$emapData[59]' 	
+'$emapData[60]' 	
+'$emapData[61]' 	
+'$emapData[62]' 	
+'$emapData[63]' 	
+'$emapData[64]' 	
+'$emapData[65]' 	
+'$emapData[66]' 
+'$emapData[67]' 	
+'$emapData[68]' 	
+'$emapData[69]' 					
+'$emapData[70]' 	 		
+'$emapData[71]' 	
+'$emapData[72]' 	
+'$emapData[73]' 	 	
+'$emapData[74]' 		
+'$emapData[75]' 		
+'$emapData[76]' 	
+'$emapData[77]' 	 	
+'$emapData[78]' 	 	
+'$emapData[79]'  	
+'$emapData[80]' 	 	 	 
+'$emapData[81]' 	   		
+'$emapData[82]' 	   		
+'$emapData[83]' 	  	
+'$emapData[84]' 	 	
+'$emapData[85]' 	 	
+'$emapData[86]' 	
+'$emapData[87]' 
+
+$fndMysql = "INSERT into time_kanban(id,table_a,table_b,table_c,table_d,table_e,table_f,table_g,table_h,table_i,table_j,table_k,table_l,table_m,table_n,table_o,table_p,table_q,table_r,table_s,table_t,table_u,table_v,table_w,table_x,table_y,table_z,table_aa,table_ab,table_ac,table_ad,table_ae,table_af,table_ag,table_ah,table_ai,table_aj,table_ak,table_al,table_am,table_an,table_ao,table_ap,table_aq,table_ar,table_as,table_at,table_au,table_av,table_aw,table_ax,table_ay,table_az,table_ba,table_bb,table_bc,table_bd,table_be,table_bf,table_bg,table_bh,table_bi,table_bj,table_bk,table_bl,table_bm,table_bn,table_b,table_bp,table_bq,table_br,table_bs,table_bt,table_bu,table_bv,table_bw,table_bx,table_by,table_bz,table_ca,table_cb,table_cc,table_cd,table_ce,table_cf,table_cg,table_ch,table_ci)
+values('$emapData[0]','$emapData[1]','$emapData[2]','$emapData[3]','$emapData[4]','$emapData[5]','$emapData[6]','$emapData[7]','$emapData[8]','$emapData[9]','$emapData[10]','$emapData[11]','$emapData[12]','$emapData[13]','$emapData[14]','$emapData[15]','$emapData[16]','$emapData[17]','$emapData[18]','$emapData[19]','$emapData[20]','$emapData[21]','$emapData[22]','$emapData[23]','$emapData[24]','$emapData[25]','$emapData[26]','$emapData[27]','$emapData[28]','$emapData[29]','$emapData[30]','$emapData[31]','$emapData[32]','$emapData[33]','$emapData[34]','$emapData[35]','$emapData[36]','$emapData[37]','$emapData[38]','$emapData[39]','$emapData[40]','$emapData[41]','$emapData[42]','$emapData[43]','$emapData[44]','$emapData[45]','$emapData[46]','$emapData[47]','$emapData[48]','$emapData[49]','$emapData[50]','$emapData[51]','$emapData[52]','$emapData[53]','$emapData[54]','$emapData[55]','$emapData[56]','$emapData[57]','$emapData[58]','$emapData[59]','$emapData[60]','$emapData[61]','$emapData[62]','$emapData[63]','$emapData[64]','$emapData[65]','$emapData[66]','$emapData[67]','$emapData[68]','$emapData[69]','$emapData[70]','$emapData[71]','$emapData[72]','$emapData[73]','$emapData[74]','$emapData[75]','$emapData[76]','$emapData[77]','$emapData[78]','$emapData[79]','$emapData[80]','$emapData[81]','$emapData[82]','$emapData[83]','$emapData[84]','$emapData[85]','$emapData[86]','$emapData[87]')";
+mysqli_query($fndMysql, $sql);
+}	
+
+$id     =  $data->val($i, 1);
+$table_a = $data->val($i, 2);
+$table_b = $data->val($i, 3);
+$table_c = $data->val($i, 4);
+$table_d = $data->val($i, 5); 
+$table_e = $data->val($i, 6); 
+$table_f = $data->val($i, 7);
+$table_g = $data->val($i, 8); 
+$table_h = $data->val($i, 9);
+$table_i = $data->val($i, 10);
+$table_j = $data->val($i, 11);
+$table_k = $data->val($i, 12);
+$table_l = $data->val($i, 13); 
+$table_m = $data->val($i, 14); 
+$table_n = $data->val($i, 15);
+$table_o = $data->val($i, 16); 
+$table_p = $data->val($i, 17);
+$table_q = $data->val($i, 18);
+$table_r = $data->val($i, 19);
+$table_s = $data->val($i, 20);
+$table_t = $data->val($i, 21); 
+$table_u = $data->val($i, 22); 
+$table_v = $data->val($i, 23);
+$table_w = $data->val($i, 24); 
+$table_x = $data->val($i, 25);
+$table_y = $data->val($i, 26);
+$table_z = $data->val($i, 27);
+$table_aa = $data->val($i, 28);
+$table_ab = $data->val($i, 29); 
+$table_ac = $data->val($i, 30);
+$table_ad = $data->val($i, 31); 
+$table_ae = $data->val($i, 32);
+$table_af = $data->val($i, 33);
+$table_ag = $data->val($i, 34); 
+$table_ah = $data->val($i, 35);
+$table_ai = $data->val($i, 36); 
+$table_aj = $data->val($i, 37);
+$table_ak = $data->val($i, 38);
+$table_al = $data->val($i, 39); 
+$table_am = $data->val($i, 40);
+$table_an = $data->val($i, 41);
+$table_ao = $data->val($i, 42);
+$table_ap = $data->val($i, 43);
+$table_aq = $data->val($i, 44); 
+$table_ar = $data->val($i, 45); 
+$table_as = $data->val($i, 46);
+$table_at = $data->val($i, 47); 
+$table_au = $data->val($i, 48);
+$table_av = $data->val($i, 49);
+$table_aw = $data->val($i, 50);
+$table_ax = $data->val($i, 51);
+$table_ay = $data->val($i, 51); 
+$table_az = $data->val($i, 53);
+$table_ba = $data->val($i, 54);
+$table_bb = $data->val($i, 55); 
+$table_bc = $data->val($i, 57);
+$table_bd = $data->val($i, 58); 
+$table_be = $data->val($i, 59);
+$table_bf = $data->val($i, 60);
+$table_bg = $data->val($i, 61); 
+$table_bh = $data->val($i, 62);
+$table_bi = $data->val($i, 63); 
+$table_bj = $data->val($i, 64);
+$table_bk = $data->val($i, 65);
+$table_bl = $data->val($i, 66); 
+$table_bm = $data->val($i, 67);
+$table_bn = $data->val($i, 68);
+$table_bo = $data->val($i, 69);
+$table_bp = $data->val($i, 70);
+$table_bq = $data->val($i, 71); 
+$table_br = $data->val($i, 72); 
+$table_bs = $data->val($i, 73);
+$table_bt = $data->val($i, 74); 
+$table_bu = $data->val($i, 75);
+$table_bv = $data->val($i, 76);
+$table_bw = $data->val($i, 77);
+$table_bx = $data->val($i, 78);
+$table_by = $data->val($i, 79); 
+$table_bz = $data->val($i, 80);
+$table_ca = $data->val($i, 81);
+$table_cb = $data->val($i, 82); 
+$table_cc = $data->val($i, 83);
+$table_cd = $data->val($i, 84); 
+$table_ce = $data->val($i, 85);
+$table_cf = $data->val($i, 86);
+$table_cg = $data->val($i, 87); 
+$table_ch = $data->val($i, 88);
+$table_ci = $data->val($i, 89); 
+
+
+$id     =  $_GET['id'];
+$table_a = $_GET['table_a'];
+$table_b = $_GET['table_b'];
+$table_c = $_GET['table_c'];
+$table_d = $_GET['table_d']; 
+$table_e = $_GET['table_e']; 
+$table_f = $_GET['table_f'];
+$table_g = $_GET['table_g']; 
+$table_h = $_GET['table_h'];
+$table_i = $_GET['table_i'];
+$table_j = $_GET['table_j'];
+$table_k = $_GET['table_k'];
+$table_l = $_GET['table_l']; 
+$table_m = $_GET['table_m']; 
+$table_n = $_GET['table_n'];
+$table_o = $_GET['table_o']; 
+$table_p = $_GET['table_p'];
+$table_q = $_GET['table_q'];
+$table_r = $_GET['table_r'];
+$table_s = $_GET['table_s'];
+$table_t = $_GET['table_t']; 
+$table_u = $_GET['table_u']; 
+$table_v = $_GET['table_v'];
+$table_w = $_GET['table_w']; 
+$table_x = $_GET['table_x'];
+$table_y = $_GET['table_y'];
+$table_z = $_GET['table_z'];
+$table_aa = $_GET['table_aa'];
+$table_ab = $_GET['table_ab']; 
+$table_ac = $_GET['table_ac'];
+$table_ad = $_GET['table_ad']; 
+$table_ae = $_GET['table_ae'];
+$table_af = $_GET['table_af'];
+$table_ag = $_GET['table_ag']; 
+$table_ah = $_GET['table_ah'];
+$table_ai = $_GET['table_ai']; 
+$table_aj = $_GET['table_aj'];
+$table_ak = $_GET['table_ak'];
+$table_al = $_GET['table_al']; 
+$table_am = $_GET['table_am'];
+$table_an = $_GET['table_an'];
+$table_ao = $_GET['table_ao'];
+$table_ap = $_GET['table_ap'];
+$table_aq = $_GET['table_aq']; 
+$table_ar = $_GET['table_ar']; 
+$table_as = $_GET['table_as'];
+$table_at = $_GET['table_at']; 
+$table_au = $_GET['table_au'];
+$table_av = $_GET['table_av'];
+$table_aw = $_GET['table_aw'];
+$table_ax = $_GET['table_ax'];
+$table_ay = $_GET['table_ay']; 
+$table_az = $_GET['table_az'];
+$table_ba = $_GET['table_ba'];
+$table_bb = $_GET['table_bb']; 
+$table_bc = $_GET['table_bc'];
+$table_bd = $_GET['table_bd']; 
+$table_be = $_GET['table_be'];
+$table_bf = $_GET['table_bf'];
+$table_bg = $_GET['table_bg']; 
+$table_bh = $_GET['table_bh'];
+$table_bi = $_GET['table_bi']; 
+$table_bj = $_GET['table_bj'];
+$table_bk = $_GET['table_bk'];
+$table_bl = $_GET['table_bl']; 
+$table_bm = $_GET['table_bm'];
+$table_bn = $_GET['table_bn'];
+$table_bo = $_GET['table_bo'];
+$table_bp = $_GET['table_bp'];
+$table_bq = $_GET['table_bq']; 
+$table_br = $_GET['table_br']; 
+$table_bs = $_GET['table_bs'];
+$table_bt = $_GET['table_bt']; 
+$table_bu = $_GET['table_bu'];
+$table_bv = $_GET['table_bv'];
+$table_bw = $_GET['table_bw'];
+$table_bx = $_GET['table_bx'];
+$table_by = $_GET['table_by']; 
+$table_bz = $_GET['table_bz'];
+$table_ca = $_GET['table_ca'];
+$table_cb = $_GET['table_cb']; 
+$table_cc = $_GET['table_cc'];
+$table_cd = $_GET['table_cd']; 
+$table_ce = $_GET['table_ce'];
+$table_cf = $_GET['table_cf'];
+$table_cg = $_GET['table_cg']; 
+$table_ch = $_GET['table_ch'];
+$table_ci = $_GET['table_ci']; 
+
+$id     =  $_POST['id'];
+$table_a = $_POST['table_a'];
+$table_b = $_POST['table_b'];
+$table_c = $_POST['table_c'];
+$table_d = $_POST['table_d']; 
+$table_e = $_POST['table_e']; 
+$table_f = $_POST['table_f'];
+$table_g = $_POST['table_g']; 
+$table_h = $_POST['table_h'];
+$table_i = $_POST['table_i'];
+$table_j = $_POST['table_j'];
+$table_k = $_POST['table_k'];
+$table_l = $_POST['table_l']; 
+$table_m = $_POST['table_m']; 
+$table_n = $_POST['table_n'];
+$table_o = $_POST['table_o']; 
+$table_p = $_POST['table_p'];
+$table_q = $_POST['table_q'];
+$table_r = $_POST['table_r'];
+$table_s = $_POST['table_s'];
+$table_t = $_POST['table_t']; 
+$table_u = $_POST['table_u']; 
+$table_v = $_POST['table_v'];
+$table_w = $_POST['table_w']; 
+$table_x = $_POST['table_x'];
+$table_y = $_POST['table_y'];
+$table_z = $_POST['table_z'];
+$table_aa = $_POST['table_aa'];
+$table_ab = $_POST['table_ab']; 
+$table_ac = $_POST['table_ac'];
+$table_ad = $_POST['table_ad']; 
+$table_ae = $_POST['table_ae'];
+$table_af = $_POST['table_af'];
+$table_ag = $_POST['table_ag']; 
+$table_ah = $_POST['table_ah'];
+$table_ai = $_POST['table_ai']; 
+$table_aj = $_POST['table_aj'];
+$table_ak = $_POST['table_ak'];
+$table_al = $_POST['table_al']; 
+$table_am = $_POST['table_am'];
+$table_an = $_POST['table_an'];
+$table_ao = $_POST['table_ao'];
+$table_ap = $_POST['table_ap'];
+$table_aq = $_POST['table_aq']; 
+$table_ar = $_POST['table_ar']; 
+$table_as = $_POST['table_as'];
+$table_at = $_POST['table_at']; 
+$table_au = $_POST['table_au'];
+$table_av = $_POST['table_av'];
+$table_aw = $_POST['table_aw'];
+$table_ax = $_POST['table_ax'];
+$table_ay = $_POST['table_ay']; 
+$table_az = $_POST['table_az'];
+$table_ba = $_POST['table_ba'];
+$table_bb = $_POST['table_bb']; 
+$table_bc = $_POST['table_bc'];
+$table_bd = $_POST['table_bd']; 
+$table_be = $_POST['table_be'];
+$table_bf = $_POST['table_bf'];
+$table_bg = $_POST['table_bg']; 
+$table_bh = $_POST['table_bh'];
+$table_bi = $_POST['table_bi']; 
+$table_bj = $_POST['table_bj'];
+$table_bk = $_POST['table_bk'];
+$table_bl = $_POST['table_bl']; 
+$table_bm = $_POST['table_bm'];
+$table_bn = $_POST['table_bn'];
+$table_bo = $_POST['table_bo'];
+$table_bp = $_POST['table_bp'];
+$table_bq = $_POST['table_bq']; 
+$table_br = $_POST['table_br']; 
+$table_bs = $_POST['table_bs'];
+$table_bt = $_POST['table_bt']; 
+$table_bu = $_POST['table_bu'];
+$table_bv = $_POST['table_bv'];
+$table_bw = $_POST['table_bw'];
+$table_bx = $_POST['table_bx'];
+$table_by = $_POST['table_by']; 
+$table_bz = $_POST['table_bz'];
+$table_ca = $_POST['table_ca'];
+$table_cb = $_POST['table_cb']; 
+$table_cc = $_POST['table_cc'];
+$table_cd = $_POST['table_cd']; 
+$table_ce = $_POST['table_ce'];
+$table_cf = $_POST['table_cf'];
+$table_cg = $_POST['table_cg']; 
+$table_ch = $_POST['table_ch'];
+$table_ci = $_POST['table_ci']; 
+
+=============================================================================================================================================
+
+if($id == "" && $table_a == "" && $table_b == "" && $table_c == "" && $table_d == "" && $table_e == "" && $table_f == "" && $table_g == "" && $table_h == "" && $table_i == "" && $table_j == "" && $table_k == "" && $table_l == "" && $table_m == "" && $table_n == "" && $table_o == "" && $table_p == "" && $table_q == "" && $table_r == "" && $table_s == "" && $table_t == "" && $table_u == "" && $table_v == "" && $table_w == "" && $table_x == "" && $table_y == "" && $table_z == "" && $table_aa == "" && $table_ab == "" && $table_ac == "" && $table_ad == "" && $table_ae == "" && $table_af == "" && $table_ag == "" && $table_ah == "" && $table_ai == "" && $table_aj == "" && $table_ak == "" && $table_al == "" && $table_am == "" && $table_an == "" && $table_ao == "" && $table_ap == "" && $table_aq == "" && $table_ar == "" && $table_as == "" && $table_at == "" && $table_au == "" && $table_av == "" && $table_aw == "" && $table_ax == "" && $table_ay == "" && $table_az == "" && $table_ba == "" && $table_bb == "" && $table_bc == "" && $table_bd == "" && $table_be == "" && $table_bf == "" && $table_bg == "" && $table_bh == "" && $table_bi == "" && $table_bj == "" && $table_bk == "" && $table_bl == "" && $table_bm == "" && $table_bn == "" && $table_bo == "" && $table_bp == "" && $table_bq == "" && $table_br == "" && $table_bs == "" && $table_bt == "" && $table_bu == "" && $table_bv == "" && $table_bw == "" && $table_bx == "" && $table_bz == "" && $table_ca == "" && $table_cb == "" && $table_cc == "" && $table_cd == "" && $table_ce == "" && $table_cf == "" && $table_cg == "" && $table_ch && $table_ci)
+
+============================================================================================================================================
+
+('".$id[0]."','".$table_a[1]."','".$table_b[2]."','".$table_c[3]."','".$table_d[4]."','".$table_e[5]."','".$table_f[6]."','".$table_g[7]."','".$table_h[8]."','".$table_i[9]."','".$table_j[10]."','".$table_k[11]."','".$table_l[12]."','".$table_m[13]."','".$table_n[14]."','".$table_o[15]."','".$table_p[16]."','".$table_q[17]."','".$table_r[18]."','".$table_s[19]."','".$table_t[20]."','".$table_u[21]."','".$table_v[22]."','".$table_w[23]."','".$table_x[24]."','".$table_y[25]."','".$table_z[26]."','".$table_aa[27]."','".$table_ab[28]."','".$table_ac[29]."','".$table_ad[30]."','".$table_ae[31]."','".$table_af[32]."','".$table_ag[33]."','".$table_ah[34]."','".$table_ai[35]."','".$table_aj[36]."','".$table_ak[37]."','".$table_al[38]."','".$table_am[39]."','".$table_an[40]."','".$table_ao[41]."','".$table_ap[42]."','".$table_aq[43]."','".$table_ar[44]."','".$table_as[45]."','".$table_at[46]."','".$table_au[47]."','".$table_av[48]."','".$table_aw[49]."','".$table_ax[50]."','".$table_ay[51]."','".$table_az[52]."','".$table_ba[53]."','".$table_bb[54]."','".$table_bc[55]."','".$table_bd[56]."','".$table_be[57]."','".$table_bf[58]."','".$table_bg[59]."','".$table_bh[60]."','".$table_bi[61]."','".$table_bj[62]."','".$table_bk[63]."','".$table_bl[64]."','".$table_bm[65]."','".$table_bn[66]."','".$table_bo[67]."','".$table_bp[68]."','".$table_bq[69]."','".$table_br[70]."','".$table_bs[71]."','".$table_bt[72]."','".$table_bu[73]."','".$table_bv[74]."','".$table_bw[75]."','".$table_bx[76]."','".$table_by[77]."','".$table_bz[78]."','".$table_ca[79]."','".$table_cb[80]."','".$table_cc[81]."','".$table_cd[82]."','".$table_ce[83]."','".$table_cf[84]."','".$table_cg[85]."','".$table_ch[86]."','".$table_ci[87]."')";
+=============================================================================================================================================
+
+$file = fopen('folder_name/csv_file.csv', 'r');
+while ( ( $line = fgetcsv( $file ) ) !== FALSE) {
+$sql = "INSERT INTO table_name (column1, column2, column3)
+VALUES ('" . $file[0] . "', '" . $file[1] . "', '" . $file[2] . "')";
+}
+fclose( $file );
+
+$conn->close();
+?>
+
+$id = $line[0];  
+$table_a = $line[1];  
+$table_b = $line[2];  
+$table_c = $line[3];  
+$table_d = $line[4];  
+$table_e = $line[5];  
+$table_f = $line[6];  
+$table_g = $line[7];  
+$table_h = $line[8];  
+$table_i = $line[9];   
+$table_j = $line[10];    
+$table_k = $line[11];    
+$table_l = $line[12];    
+$table_m = $line[13];    
+$table_n = $line[14];    
+$table_o = $line[15];   
+$table_p = $line[16];  
+$table_q = $line[17];      
+$table_r = $line[18];   
+$table_s = $line[19];   
+$table_t = $line[20];                        
+$table_u = $line[21];                        
+$table_v = $line[22];                        
+$table_w = $line[23];                        
+$table_x = $line[24];                        
+$table_y = $line[25];
+$table_z = $line[26];                        
+$table_aa = $line[27];     
+$table_ab = $line[28];     
+$table_ac = $line[39];               
+$table_ad = $line[30];  
+$table_ae = $line[31];  
+$table_af = $line[32];  
+$table_ag = $line[33];  
+$table_ah = $line[34];  
+$table_ai = $line[35];           
+$table_aj = $line[36];           
+$table_ak = $line[37];          
+$table_al = $line[38];          
+$table_am = $line[49];          
+$table_an = $line[40];     
+$table_ao = $line[41];     
+$table_ap = $line[42];     
+$table_aq = $line[43];     
+$table_ar = $line[44];     
+$table_as = $line[45];     
+$table_at = $line[46];     
+$table_au = $line[47];     
+$table_av = $line[48];     
+$table_aw = $line[49];     
+$table_ax = $line[50];     
+$table_ay = $line[51];     
+$table_az = $line[52];     
+$table_ba = $line[53];     
+$table_bb = $line[54];     
+$table_bc = $line[55];     
+$table_bd = $line[56];     
+$table_be = $line[57];     
+$table_bf = $line[58];     
+$table_bg = $line[59];     
+$table_bh = $line[60];     
+$table_bi = $line[61];     
+$table_bj = $line[62];     
+$table_bk = $line[63];     
+$table_bl = $line[64];     
+$table_bm = $line[65];     
+$table_bn = $line[66]; 
+$table_bo = $line[67];
+$table_bp = $line[68];          
+$table_bq = $line[69];     
+$table_br = $line[70];                     
+$table_bs = $line[71];             
+$table_bt = $line[72];     
+$table_bu = $line[73];     
+$table_bv = $line[74];         
+$table_bw = $line[75];         
+$table_bx = $line[76];         
+$table_by = $line[77];     
+$table_bz = $line[78];         
+$table_ca = $line[79];     
+$table_cb = $line[80];              
+$table_cc = $line[81];             
+$table_cd = $line[82];             
+$table_ce = $line[83];         
+$table_cf = $line[84];         
+$table_cg = $line[85];         
+$table_ch = $line[86];
+
+$fndMysql->query("INSERT INTO time_kanban(id,table_a,table_b,table_c,table_d,table_e,table_f,table_g,table_h,table_i,table_j,table_k,table_l,table_m,table_n,table_o,table_p,table_q,table_r,table_s,table_t,table_u,table_v,table_w,table_x,table_y,table_z,table_aa,table_ab,table_ac,table_ad,table_ae,table_af,table_ag,table_ah,table_ai,table_aj,table_ak,table_al,table_am,table_an,table_ao,table_ap,table_aq,table_ar,table_as,table_at,table_au,table_av,table_aw,table_ax,table_ay,table_az,table_ba,table_bb,table_bc,table_bd,table_be,table_bf,table_bg,table_bh,table_bi,table_bj,table_bk,table_bl,table_bm,table_bn,table_b,table_bp,table_bq,table_br,table_bs,table_bt,table_bu,table_bv,table_bw,table_bx,table_by,table_bz,table_ca,table_cb,table_cc,table_cd,table_ce,table_cf,table_cg,table_ch,table_ci) VALUES ('".$id."', '".$table_a."', '".$table_b."', '".$table_c."', '".$table_d."', '".$table_e."', '".$table_f."', '".$table_g."', '".$table_h."', '".$table_i."', '".$table_j."', '".$table_k."', '".$table_l."', '".$table_m."', '".$table_n."', '".$table_o."', '".$table_p."', '".$table_q."', '".$table_r."', '".$table_s."', '".$table_t."', '".$table_u."', '".$table_v."', '".$table_w."', '".$table_x."', '".$table_y."', '".$table_z."', '".$table_aa."', '".$table_ab."', '".$table_ac."', '".$table_ad."', '".$table_ae."', '".$table_af."', '".$table_ag."', '".$table_ah."', '".$table_ai."', '".$table_aj."', '".$table_ak."', '".$table_al."', '".$table_am."', '".$table_an."', '".$table_ao."', '".$table_ap."', '".$table_aq."', '".$table_ar."', '".$table_as."', '".$table_at."', '".$table_au."', '".$table_av."', '".$table_aw."', '".$table_ax."', '".$table_ay."', '".$table_az."', '".$table_ba."', '".$table_bb."', '".$table_bc."', '".$table_bd."', '".$table_be."', '".$table_bf."', '".$table_bg."', '".$table_bh."', '".$table_bi."', '".$table_bj."', '".$table_bk."', '".$table_bl."', '".$table_bm."', '".$table_bn."', '".$table_bo."', '".$table_bp."', '".$table_bq."', '".$table_br."', '".$table_bs."', '".$table_bt."', '".$table_bu."', '".$table_bv."', '".$table_bw."', '".$table_bx."', '".$table_by."', '".$table_bz."', '".$table_ac."', '".$table_cb."', '".$table_cc."', '".$table_cd."', '".$table_ce."', '".$table_cf."', '".$table_cg."', '".$table_ch."', '".$table_ci."')");
+===========================================================================================================================================
+$id = $get[0]; 
+$table_a = $get[1];  
+$table_b = $get[2];  
+$table_c = $get[3];  
+$table_d = $get[4];  
+$table_e = $get[5];  
+$table_f = $get[6];  
+$table_g = $get[7];  
+$table_h = $get[8];  
+$table_i = $get[9];   
+$table_j = $get[10];    
+$table_k = $get[11];    
+$table_l = $get[12];    
+$table_m = $get[13];    
+$table_n = $get[14];    
+$table_o = $get[15];   
+$table_p = $get[16];  
+$table_q = $get[17];      
+$table_r = $get[18];   
+$table_s = $get[19];   
+$table_t = $get[20];                        
+$table_u = $get[21];                        
+$table_v = $get[22];                        
+$table_w = $get[23];                        
+$table_x = $get[24];                        
+$table_y = $get[25];
+$table_z = $get[26];                        
+$table_aa = $get[27];     
+$table_ab = $get[28];     
+$table_ac = $get[39];               
+$table_ad = $get[30];  
+$table_ae = $get[31];  
+$table_af = $get[32];  
+$table_ag = $get[33];  
+$table_ah = $get[34];  
+$table_ai = $get[35];           
+$table_aj = $get[36];           
+$table_ak = $get[37];          
+$table_al = $get[38];          
+$table_am = $get[49];          
+$table_an = $get[40];     
+$table_ao = $get[41];     
+$table_ap = $get[42];     
+$table_aq = $get[43];     
+$table_ar = $get[44];     
+$table_as = $get[45];     
+$table_at = $get[46];     
+$table_au = $get[47];     
+$table_av = $get[48];     
+$table_aw = $get[49];     
+$table_ax = $get[50];     
+$table_ay = $get[51];     
+$table_az = $get[52];     
+$table_ba = $get[53];     
+$table_bb = $get[54];     
+$table_bc = $get[55];     
+$table_bd = $get[56];     
+$table_be = $get[57];     
+$table_bf = $get[58];     
+$table_bg = $get[59];     
+$table_bh = $get[60];     
+$table_bi = $get[61];     
+$table_bj = $get[62];     
+$table_bk = $get[63];     
+$table_bl = $get[64];     
+$table_bm = $get[65];     
+$table_bn = $get[66]; 
+$table_bo = $get[67];
+$table_bp = $get[68];          
+$table_bq = $get[69];     
+$table_br = $get[70];                     
+$table_bs = $get[71];             
+$table_bt = $get[72];     
+$table_bu = $get[73];     
+$table_bv = $get[74];         
+$table_bw = $get[75];         
+$table_bx = $get[76];         
+$table_by = $get[77];     
+$table_bz = $get[78];         
+$table_ca = $get[79];     
+$table_cb = $get[80];              
+$table_cc = $get[81];             
+$table_cd = $get[82];             
+$table_ce = $get[83];         
+$table_cf = $get[84];         
+$table_cg = $get[85];        
+$table_ch = $get[86];
+=============================================================================================================================================
+<?php
+include 'config/fnd.connection.php';
+
+
+if(isset($_POST['import'])){ // Jika user mengklik tombol Import
+// Load librari PHPExcel nya
+require_once 'PHPExcel/PHPExcel.php';
+
+
+$inputFileType = 'CSV';
+$inputFileName = 'tmp/Book2.csv';
+
+$reader = PHPExcel_IOFactory::createReader($inputFileType);
+$excel = $reader->load($inputFileName);
+
+$numrow = 1;
+$worksheet = $excel->getActiveSheet();
+foreach ($worksheet->getRowIterator() as $row) {
+// Cek $numrow apakah lebih dari 1
+// Artinya karena baris pertama adalah nama-nama kolom
+// Jadi dilewat saja, tidak usah diimport
+if($numrow > 1){
+// START -->
+// Skrip untuk mengambil value nya
+$cellIterator = $row->getCellIterator();
+$cellIterator->setIterateOnlyExistingCells(false); // Loop all cells, even if it is not set
+
+$get = array(); // Valuenya akan di simpan kedalam array,dimulai dari index ke 0
+foreach ($cellIterator as $cell) {
+array_push($get, $cell->getValue()); // Menambahkan value ke variabel array $get
+
+$table_a = $get[1];  
+$table_b = $get[2];  
+$table_c = $get[3];  
+$table_d = $get[4];  
+$table_e = $get[5];  
+$table_f = $get[6];  
+$table_g = $get[7];  
+$table_h = $get[8];  
+$table_i = $get[9];   
+$table_j = $get[10];    
+$table_k = $get[11];    
+$table_l = $get[12];    
+$table_m = $get[13];    
+$table_n = $get[14];    
+$table_o = $get[15];   
+$table_p = $get[16];  
+$table_q = $get[17];      
+$table_r = $get[18];   
+$table_s = $get[19];   
+$table_t = $get[20];                        
+$table_u = $get[21];                        
+$table_v = $get[22];                        
+$table_w = $get[23];                        
+$table_x = $get[24];                        
+$table_y = $get[25];
+$table_z = $get[26];                        
+$table_aa = $get[27];     
+$table_ab = $get[28];     
+$table_ac = $get[39];               
+$table_ad = $get[30];  
+$table_ae = $get[31];  
+$table_af = $get[32];  
+$table_ag = $get[33];  
+$table_ah = $get[34];  
+$table_ai = $get[35];           
+$table_aj = $get[36];           
+$table_ak = $get[37];          
+$table_al = $get[38];          
+$table_am = $get[49];          
+$table_an = $get[40];     
+$table_ao = $get[41];     
+$table_ap = $get[42];     
+$table_aq = $get[43];     
+$table_ar = $get[44];     
+$table_as = $get[45];     
+$table_at = $get[46];     
+$table_au = $get[47];     
+$table_av = $get[48];     
+$table_aw = $get[49];     
+$table_ax = $get[50];     
+$table_ay = $get[51];     
+$table_az = $get[52];     
+$table_ba = $get[53];     
+$table_bb = $get[54];     
+$table_bc = $get[55];     
+$table_bd = $get[56];     
+$table_be = $get[57];     
+$table_bf = $get[58];     
+$table_bg = $get[59];     
+$table_bh = $get[60];     
+$table_bi = $get[61];     
+$table_bj = $get[62];     
+$table_bk = $get[63];     
+$table_bl = $get[64];     
+$table_bm = $get[65];     
+$table_bn = $get[66]; 
+$table_bo = $get[67];
+$table_bp = $get[68];          
+$table_bq = $get[69];     
+$table_br = $get[70];                     
+$table_bs = $get[71] ;             
+$table_bt = $get[72];     
+$table_bu = $get[73];     
+$table_bv = $get[74];         
+$table_bw = $get[75];         
+$table_bx = $get[76];         
+$table_by = $get[77];     
+$table_bz = $get[78];         
+$table_ca = $get[79];     
+$table_cb = $get[80];              
+$table_cc = $get[81];             
+$table_cd = $get[82];             
+$table_ce = $get[83];         
+$table_cf = $get[84];         
+$table_cg = $get[85];        
+$table_ch = $get[86];
+
+if($id == "" && $table_a == "" && $table_b == "" && $table_c == "" && $table_d == "" && $table_e == "" && $table_f == "" && $table_g == "" && $table_h == "" && $table_i == "" && $table_j == "" && $table_k == "" && $table_l == "" && $table_m == "" && $table_n == "" && $table_o == "" && $table_p == "" && $table_q == "" && $table_r == "" && $table_s == "" && $table_t == "" && $table_u == "" && $table_v == "" && $table_w == "" && $table_x == "" && $table_y == "" && $table_z == "" && $table_aa == "" && $table_ab == "" && $table_ac == "" && $table_ad == "" && $table_ae == "" && $table_af == "" && $table_ag == "" && $table_ah == "" && $table_ai == "" && $table_aj == "" && $table_ak == "" && $table_al == "" && $table_am == "" && $table_an == "" && $table_ao == "" && $table_ap == "" && $table_aq == "" && $table_ar == "" && $table_as == "" && $table_at == "" && $table_au == "" && $table_av == "" && $table_aw == "" && $table_ax == "" && $table_ay == "" && $table_az == "" && $table_ba == "" && $table_bb == "" && $table_bc == "" && $table_bd == "" && $table_be == "" && $table_bf == "" && $table_bg == "" && $table_bh == "" && $table_bi == "" && $table_bj == "" && $table_bk == "" && $table_bl == "" && $table_bm == "" && $table_bn == "" && $table_bo == "" && $table_bp == "" && $table_bq == "" && $table_br == "" && $table_bs == "" && $table_bt == "" && $table_bu == "" && $table_bv == "" && $table_bw == "" && $table_bx == "" && $table_bz == "" && $table_ca == "" && $table_cb == "" && $table_cc == "" && $table_cd == "" && $table_ce == "" && $table_cf == "" && $table_cg == "" && $table_ch == "" && $table_ci == "")
+continue; // Lewat data pada baris ini (masuk ke looping selanjutnya / baris selanjutnya)
+
+
+// Tambahkan value yang akan di insert ke variabel $query
+// Buat query Insert
+$query = "INSERT INTO time_kanban (`nama_file`, `table_a`, `table_b`, `table_c`, `table_d`, `table_e`, `table_f`, `table_g`, `table_h`, `table_i`, `table_j`, `table_k`, `table_l`, `table_m`, `table_n`, `table_o`, `table_p`, `table_q`, `table_r`, `table_s`, `table_t`, `table_u`, `table_v`, `table_w`, `table_x`, `table_y`, `table_z`, `table_aa`, `table_ab`, `table_ac`, `table_ad`, `table_ae`, `table_af`, `table_ag`, `table_ah`, `table_ai`, `table_aj`, `table_ak`, `table_al`, `table_am`, `table_an`, `table_ao`, `table_ap`, `table_aq`, `table_ar`, `table_as`, `table_at`, `table_au`, `table_av`, `table_aw`, `table_ax`, `table_ay`, `table_az`, `table_ba`, `table_bb`, `table_bc`, `table_bd`, `table_be`, `table_bf`, `table_bg`, `table_bh`, `table_bi`, `table_bj`, `table_bk`, `table_bl`, `table_bm`, `table_bn`, `table_bo`, `table_bp`, `table_bq`, `table_br`, `table_bs`, `table_bt`, `table_bu`, `table_bv`, `table_bw`, `table_bx`, `table_by`, `table_bz`, `table_ca`, `table_cb`, `table_cc`, `table_cd`, `table_ce`, `table_cf`, `table_cg`, `table_ch`, `table_ci`) VALUES('".$destinationFileName."','".$table_a."','".$table_b."','".$table_c."','".$table_d."','".$table_e."','".$table_f."','".$table_g."','".$table_h."','".$table_i."','".$table_j."','".$table_k."','".$table_l."','".$table_m."','".$table_n."','".$table_o."','".$table_p."','".$table_q."','".$table_r."','".$table_s."','".$table_t."','".$table_u."','".$table_v."','".$table_w."','".$table_x."','".$table_y."','".$table_z."','".$table_aa."','".$table_ab."','".$table_ac."','".$table_ad."','".$table_ae."','".$table_af."','".$table_ag."','".$table_ah."','".$table_ai."','".$table_aj."','".$table_ak."','".$table_al."','".$table_am."','".$table_an."','".$table_ao."','".$table_ap."','".$table_aq."','".$table_ar."','".$table_as."','".$table_at."','".$table_au."','".$table_av."','".$table_aw."','".$table_ax."','".$table_ay."','".$table_az."','".$table_ba."','".$table_bb."','".$table_bc."','".$table_bd."','".$table_be."','".$table_bf."','".$table_bg."','".$table_bh."','".$table_bi."','".$table_bj."','".$table_bk."','".$table_bl."','".$table_bm."','".$table_bn."','".$table_bo."','".$table_bp."','".$table_bq."','".$table_br."','".$table_bs."','".$table_bt."','".$table_bu."','".$table_bv."','".$table_bw."','".$table_bx."','".$table_by."','".$table_bz."','".$table_ca."','".$table_cb."','".$table_cc."','".$table_cd."','".$table_ce."','".$table_cf."','".$table_cg."','".$table_ch."','".$table_ci."')";
+mysqli_query($fndMysql, $query);
+}
+$numrow++; // Tambah 1 setiap kali looping
+}
+}
+header('location:?p=upload-txt'); // Redirect ke halaman awal
+?>
+
+=============================================================================================================================================
+
+<?php
+
+include 'config/fnd.connection.php';
+
+if(isset($_POST['import'])){ // Jika user mengklik tombol Import
+// Load librari PHPExcel nya
+require_once 'PHPExcel/PHPExcel.php';
+
+$inputFileType = 'CSV';
+$inputFileName = 'tmp/Book2.csv';
+
+$reader = PHPExcel_IOFactory::createReader($inputFileType);
+$excel = $reader->load($inputFileName);
+
+$numrow = 1;
+$worksheet = $excel->getActiveSheet();
+foreach ($worksheet->getRowIterator() as $row) {
+// Cek $numrow apakah lebih dari 1
+// Artinya karena baris pertama adalah nama-nama kolom
+// Jadi dilewat saja, tidak usah diimport
+if($numrow > 1){
+// START -->
+// Skrip untuk mengambil value nya
+$cellIterator = $row->getCellIterator();
+$cellIterator->setIterateOnlyExistingCells(false); // Loop all cells, even if it is not set
+
+$get = array(); // Valuenya akan di simpan kedalam array,dimulai dari index ke 0
+foreach ($cellIterator as $cell) {
+array_push($get, $cell->getValue()); // Menambahkan value ke variabel array $get
+}
+// <-- END
+
+// Ambil data value yang telah di ambil dan dimasukkan ke variabel $get
+$id = $get[0];  
+$table_a = $get[1];  
+$table_b = $get[2];  
+$table_c = $get[3];  
+$table_d = $get[4];  
+$table_e = $get[5];  
+$table_f = $get[6];  
+$table_g = $get[7];  
+$table_h = $get[8];  
+$table_i = $get[9];   
+$table_j = $get[10];    
+$table_k = $get[11];    
+$table_l = $get[12];    
+$table_m = $get[13];    
+$table_n = $get[14];    
+$table_o = $get[15];   
+$table_p = $get[16];  
+$table_q = $get[17];      
+$table_r = $get[18];   
+$table_s = $get[19];   
+$table_t = $get[20];                        
+$table_u = $get[21];                        
+$table_v = $get[22];                        
+$table_w = $get[23];                        
+$table_x = $get[24];                        
+$table_y = $get[25];
+$table_z = $get[26];                        
+$table_aa = $get[27];     
+$table_ab = $get[28];     
+$table_ac = $get[39];               
+$table_ad = $get[30];  
+$table_ae = $get[31];  
+$table_af = $get[32];  
+$table_ag = $get[33];  
+$table_ah = $get[34];  
+$table_ai = $get[35];           
+$table_aj = $get[36];           
+$table_ak = $get[37];          
+$table_al = $get[38];          
+$table_am = $get[49];          
+$table_an = $get[40];     
+$table_ao = $get[41];     
+$table_ap = $get[42];     
+$table_aq = $get[43];     
+$table_ar = $get[44];     
+$table_as = $get[45];     
+$table_at = $get[46];     
+$table_au = $get[47];     
+$table_av = $get[48];     
+$table_aw = $get[49];     
+$table_ax = $get[50];     
+$table_ay = $get[51];     
+$table_az = $get[52];     
+$table_ba = $get[53];     
+$table_bb = $get[54];     
+$table_bc = $get[55];     
+$table_bd = $get[56];     
+$table_be = $get[57];     
+$table_bf = $get[58];     
+$table_bg = $get[59];     
+$table_bh = $get[60];     
+$table_bi = $get[61];     
+$table_bj = $get[62];     
+$table_bk = $get[63];     
+$table_bl = $get[64];     
+$table_bm = $get[65];     
+$table_bn = $get[66]; 
+$table_bo = $get[67];
+$table_bp = $get[68];          
+$table_bq = $get[69];     
+$table_br = $get[70];                     
+$table_bs = $get[71];             
+$table_bt = $get[72];     
+$table_bu = $get[73];     
+$table_bv = $get[74];         
+$table_bw = $get[75];         
+$table_bx = $get[76];         
+$table_by = $get[77];     
+$table_bz = $get[78];         
+$table_ca = $get[79];     
+$table_cb = $get[80];              
+$table_cc = $get[81];             
+$table_cd = $get[82];             
+$table_ce = $get[83];         
+$table_cf = $get[84];         
+$table_cg = $get[85];        
+$table_ch = $get[86];
+$table_ci =$get[87];
+// Cek jika semua data tidak diisi
+if($id == "" && $table_a == "" && $table_b == "" && $table_c == "" && $table_d == "" && $table_e == "" && $table_f == "" && $table_g == "" && $table_h == "" && $table_i == "" && $table_j == "" && $table_k == "" && $table_l == "" && $table_m == "" && $table_n == "" && $table_o == "" && $table_p == "" && $table_q == "" && $table_r == "" && $table_s == "" && $table_t == "" && $table_u == "" && $table_v == "" && $table_w == "" && $table_x == "" && $table_y == "" && $table_z == "" && $table_aa == "" && $table_ab == "" && $table_ac == "" && $table_ad == "" && $table_ae == "" && $table_af == "" && $table_ag == "" && $table_ah == "" && $table_ai == "" && $table_aj == "" && $table_ak == "" && $table_al == "" && $table_am == "" && $table_an == "" && $table_ao == "" && $table_ap == "" && $table_aq == "" && $table_ar == "" && $table_as == "" && $table_at == "" && $table_au == "" && $table_av == "" && $table_aw == "" && $table_ax == "" && $table_ay == "" && $table_az == "" && $table_ba == "" && $table_bb == "" && $table_bc == "" && $table_bd == "" && $table_be == "" && $table_bf == "" && $table_bg == "" && $table_bh == "" && $table_bi == "" && $table_bj == "" && $table_bk == "" && $table_bl == "" && $table_bm == "" && $table_bn == "" && $table_bo == "" && $table_bp == "" && $table_bq == "" && $table_br == "" && $table_bs == "" && $table_bt == "" && $table_bu == "" && $table_bv == "" && $table_bw == "" && $table_bx == "" && $table_bz == "" && $table_ca == "" && $table_cb == "" && $table_cc == "" && $table_cd == "" && $table_ce == "" && $table_cf == "" && $table_cg == "" && $table_ch == "" && $table_ci == "")
+continue; // Lewat data pada baris ini (masuk ke looping selanjutnya / baris selanjutnya)
+
+
+$sql = "DELETE FROM time_kanban where nama_file='$destinationFileName'";
+$query = mysqli_query($fndMysql, $sql);
+
+
+
+// Tambahkan value yang akan di insert ke variabel $query
+// Buat q $sql = "DELETE FROM time_kanban where nama_file='$destinationFileName'";
+$query = mysqli_query($fndMysql, $sql);
+uery Insert
+$query = "INSERT INTO time_kanban VALUES('".$id."','".$table_a."','".$table_b."','".$table_c."','".$table_d."','".$table_e."','".$table_f."','".$table_g."','".$table_h."','".$table_i."','".$table_j."','".$table_k."','".$table_l."','".$table_m."','".$table_n."','".$table_o."','".$table_p."','".$table_q."','".$table_r."','".$table_s."','".$table_t."','".$table_u."','".$table_v."','".$table_w."','".$table_x."','".$table_y."','".$table_z."','".$table_aa."','".$table_ab."','".$table_ac."','".$table_ad."','".$table_ae."','".$table_af."','".$table_ag."','".$table_ah."','".$table_ai."','".$table_aj."','".$table_ak."','".$table_al."','".$table_am."','".$table_an."','".$table_ao."','".$table_ap."','".$table_aq."','".$table_ar."','".$table_as."','".$table_at."','".$table_au."','".$table_av."','".$table_aw."','".$table_ax."','".$table_ay."','".$table_az."','".$table_ba."','".$table_bb."','".$table_bc."','".$table_bd."','".$table_be."','".$table_bf."','".$table_bg."','".$table_bh."','".$table_bi."','".$table_bj."','".$table_bk."','".$table_bl."','".$table_bm."','".$table_bn."','".$table_bo."','".$table_bp."','".$table_bq."','".$table_br."','".$table_bs."','".$table_bt."','".$table_bu."','".$table_bv."','".$table_bw."','".$table_bx."','".$table_by."','".$table_bz."','".$table_ca."','".$table_cb."','".$table_cc."','".$table_cd."','".$table_ce."','".$table_cf."','".$table_cg."','".$table_ch."','".$table_ci."')";
+mysqli_query($fndMysql, $query);
+}
+
+$numrow++; // Tambah 1 setiap kali looping
+}
+}
+
+header('location:?p=upload-txt'); // Redirect ke halaman awal
+?>
+
+$destinationFileName = date('Ymd').'.'.$file_ext;
+move_uploaded_file($file_tmp,"../complains_photos/".$destinationFileName);
+$file_ext=strtolower(end(explode('.',$_FILES['image']['name'])));
+$file_ext=strtolower(end(explode('.',$_FILES['image']['name'])));
+
+$query = mysqli_query($fndMysql,"DELETE FROM time_kanban WHERE nama_file='$destinationFileName'"); 
+
+$cek = mysqli_num_rows(mysqli_query($conn,"SELECT * FROM cek WHERE nama='$nama' or email='$email'"));
+if ($cek > 0){
+echo "<script>window.alert('nama atau email yang anda masukan sudah ada')
+window.location='index.php'</script>";
+}else {
+mysqli_query($conn,"INSERT INTO cek(id,nama,email, password)
+VALUES ('','$nama','$email','$password')");
+
+echo "<script>window.alert('DATA SUDAH DISIMPAN')
+window.location='index.php'</script>";
+}
+}
+?>
+=============================================================================================================================================
+
+$cek = mysqli_num_rows(mysqli_query($fndMysql,"SELECT * FROM time_kanban WHERE nama_file='$destinationFileName'"));
+if ($cek > 0){
+echo "<script>window.alert('Data Sudah Ada')
+window.location='?p=upload-txt'</script>";
+}
+else{
+echo "<script>window.alert('Data Berhasil Di Simpan')
+window.location='?p=upload-txt'</script>";
+}
+}
+$numrow++; // 
+}
+}
+header('location:?p=upload-txt');
+?>
+
+======================================================================================================================================
+
+<div class="form-group">
+<button class="btn btn-success waves-effect waves-dark" input type="submit" id="import"  name="import"><i class="mdi mdi-note-plus-outline"> UPLOAD CSV</button></a></i>
+<div class="form-group">
+<a target="_blank" button class="btn btn-info btn-sm"><<i class="fa fa-print"></i> PRINT DATA</button></a>
+
+https://www.zamzar.com/convert/pdf-to-html
+
+
+<?php 
+//memanggil library mpdf
+include("mpdf.php");
+
+//object
+$mpdf = new mPDF();
+
+//character set
+$mpdf->charset_in = 'UTF-8';
+
+//tampil pdf browser
+$mpdf->WriteHTML('<h1 style=text-align:center>Hallo Dumetschool</h1>');
+
+$mpdf->Output();
+
+exit();
+?>
+
+http://suckittrees.com/artikel-559/membuat-laporan-pdf-mudah-dengan-mpdf-di-php.html
+==============================================================================================================================
+Code mpdf60 - Print To Pdf
+==============================================================================================================================
+
+=> Diatas 
+
+$nama_dokumen='Data Print Karawang'; //Beri nama file PDF hasil.
+define('_MPDF_PATH','mpdf60/'); // Tentukan folder dimana anda menyimpan folder mpdf
+include(_MPDF_PATH . "mpdf.php"); // Arahkan ke file mpdf.php didalam folder mpdf
+$mpdf=new mPDF('utf-8', 'A4', 'P'); // Membuat file mpdf baru
+
+//Memulai proses untuk menyimpan variabel php dan html
+ob_start();
+
+==============================================================================================================================
+
+=> Di Bawah
+
+<?php
+
+$mpdf->setFooter('{PAGENO}');
+//penulisan output selesai, sekarang menutup mpdf dan generate kedalam format pdf
+$html = ob_get_contents(); //Proses untuk mengambil hasil dari OB..
+ob_end_clean();
+//Disini dimulai proses convert UTF-8, kalau ingin ISO-8859-1 cukup dengan mengganti $mpdf->WriteHTML($html);
+$mpdf->WriteHTML(utf8_encode($html));
+$mpdf->Output($nama_dokumen.".pdf" ,'I');
+exit;
+?>
+
+<script>
+$('#exampleModal').on('show.bs.modal', function (event) {
+var button = $(event.relatedTarget) 
+var recipient = button.data('isi')
+var modal = $(this)
+
+modal.find('.modal-body input').val(recipient)
+})
+</script>
+
+===========================================================================
+ <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog modal-lg" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <div class="card">
+                                                                <div class="card-body">
+                                                                    <div class="card-title">
+                                                                        <div class="h3 p-0 font-weight-bold">Detail Data</div>
+                                                                    </div>
+                                                                    <div class="table-responsive">
+                                                                        <table id="dataTable" class="table table-bordered table-striped table-hover table-sm">
+                                                                            <thead>
+                                                                                <tr>
+                                                                                    <th class="align-middle text-uppercase">MANIFEST NO</th>
+                                                                                    <th class="align-middle text-uppercase">PART NO</th>
+                                                                                    <th class="align-middle text-uppercase">PART NAME</th>
+                                                                                    <th class="align-middle text-uppercase">TEST</th>
+                                                                                    <th class="align-middle text-uppercase">PCS / KANBAN</th>
+                                                                                    <th class="align-middle text-uppercase">TOTAL PCS</th>
+                                                                                </tr>
+                                                                            </thead>
+                                                                            <tbody>
+                                                                                <?php 
+                                                                                $sql = "SELECT * FROM time_kanban";
+                                                                                $query = mysqli_query($fndMysql, $sql);
+                                                                                while ($row = mysqli_fetch_array($query)) {
+                                                                                    ?>
+                                                                                    <tr>
+                                                                                        <td class="align-middle"><?= $row['manifest_no']?></td>
+                                                                                        <td class="align-middle"><?= $row['part_no']?></td>
+                                                                                        <td class="align-middle"><?= $row['part_name']?></td>
+                                                                                        <td class="align-middle"></td>
+                                                                                        <td class="align-middle"><?= $row['pcs_kanban']?></td>
+                                                                                        <td class="align-middle"></td>
+                                                                                    </tr>
+                                                                                <?php } ?>
+                                                                            </tbody>
+                                                                        </table>                 

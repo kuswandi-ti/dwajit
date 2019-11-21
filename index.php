@@ -1,0 +1,1 @@
+<?php header('location:fnd.php?p=auth') ?>
